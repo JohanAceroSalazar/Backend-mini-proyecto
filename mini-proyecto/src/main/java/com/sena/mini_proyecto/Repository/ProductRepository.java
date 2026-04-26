@@ -16,5 +16,5 @@ public interface ProductRepository extends JpaRepository<Product, UUID> {
 			+ "WHERE "
 			+ "p.total like %?1%"
 			)
-	public List<Product>filterByTotal(double total);
+	public List<Product>filterByNameProduct(String name);
 }

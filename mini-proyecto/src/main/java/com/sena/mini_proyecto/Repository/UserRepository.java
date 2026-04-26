@@ -1,3 +1,4 @@
+//Acceso a la base de datos
 package com.sena.mini_proyecto.Repository;
 
 import java.util.List;
