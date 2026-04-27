@@ -1,4 +1,4 @@
-package com.sena.mini_proyecto.Dto;
+package com.sena.mini_proyecto.dto;
 
 import lombok.Data;
 

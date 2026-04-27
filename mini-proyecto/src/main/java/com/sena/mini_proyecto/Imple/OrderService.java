@@ -1,17 +1,18 @@
-package com.sena.mini_proyecto.Imple;
+package com.sena.mini_proyecto.imple;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.UUID;
-import com.sena.mini_proyecto.Entity.Order;
-import com.sena.mini_proyecto.Entity.Product;
-import com.sena.mini_proyecto.Entity.User;
-import com.sena.mini_proyecto.Dto.OrderDto;
-import com.sena.mini_proyecto.Repository.OrderRepository;
-import com.sena.mini_proyecto.Repository.ProductRepository;
-import com.sena.mini_proyecto.Repository.UserRepository;
-import com.sena.mini_proyecto.Service.IOrderService;
+
+import com.sena.mini_proyecto.dto.OrderDto;
+import com.sena.mini_proyecto.entity.Order;
+import com.sena.mini_proyecto.entity.Product;
+import com.sena.mini_proyecto.entity.User;
+import com.sena.mini_proyecto.repository.OrderRepository;
+import com.sena.mini_proyecto.repository.ProductRepository;
+import com.sena.mini_proyecto.repository.UserRepository;
+import com.sena.mini_proyecto.service.IOrderService;
 
 @Service
 public class OrderService implements IOrderService {

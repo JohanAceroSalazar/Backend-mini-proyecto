@@ -1,9 +1,10 @@
-package com.sena.mini_proyecto.Service;
+package com.sena.mini_proyecto.service;
 
 import java.util.List;
 import java.util.UUID;
-import com.sena.mini_proyecto.Entity.Product;
-import com.sena.mini_proyecto.Dto.ProductDto;
+
+import com.sena.mini_proyecto.dto.ProductDto;
+import com.sena.mini_proyecto.entity.Product;
 
 public interface IProductService {
 

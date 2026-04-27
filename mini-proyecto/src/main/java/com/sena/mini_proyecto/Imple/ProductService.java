@@ -1,13 +1,14 @@
-package com.sena.mini_proyecto.Imple;
+package com.sena.mini_proyecto.imple;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.UUID;
-import com.sena.mini_proyecto.Entity.Product;
-import com.sena.mini_proyecto.Dto.ProductDto;
-import com.sena.mini_proyecto.Repository.ProductRepository;
-import com.sena.mini_proyecto.Service.IProductService;
+
+import com.sena.mini_proyecto.dto.ProductDto;
+import com.sena.mini_proyecto.entity.Product;
+import com.sena.mini_proyecto.repository.ProductRepository;
+import com.sena.mini_proyecto.service.IProductService;
 
 @Service
 public class ProductService implements IProductService {

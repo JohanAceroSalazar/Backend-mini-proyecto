@@ -1,14 +1,15 @@
 //Logica del negocio: validaciones y lo que decide que hacer
-package com.sena.mini_proyecto.Imple;
+package com.sena.mini_proyecto.imple;
 
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.sena.mini_proyecto.Entity.User;
-import com.sena.mini_proyecto.Dto.UserDto;
-import com.sena.mini_proyecto.Repository.UserRepository;
-import com.sena.mini_proyecto.Service.IUserService;
+
+import com.sena.mini_proyecto.dto.UserDto;
+import com.sena.mini_proyecto.entity.User;
+import com.sena.mini_proyecto.repository.UserRepository;
+import com.sena.mini_proyecto.service.IUserService;
 
 @Service
 public class UserService implements IUserService {

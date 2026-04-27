@@ -1,9 +1,10 @@
-package com.sena.mini_proyecto.Service;
+package com.sena.mini_proyecto.service;
 
 import java.util.List;
 import java.util.UUID;
-import com.sena.mini_proyecto.Entity.Order;
-import com.sena.mini_proyecto.Dto.OrderDto;
+
+import com.sena.mini_proyecto.dto.OrderDto;
+import com.sena.mini_proyecto.entity.Order;
 
 public interface IOrderService {
 

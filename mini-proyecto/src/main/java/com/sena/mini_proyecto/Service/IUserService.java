@@ -1,10 +1,11 @@
 //Interface metodos que se deben de cumplir en la implement
-package com.sena.mini_proyecto.Service;
+package com.sena.mini_proyecto.service;
 
 import java.util.List;
 import java.util.UUID;
-import com.sena.mini_proyecto.Entity.User;
-import com.sena.mini_proyecto.Dto.UserDto;
+
+import com.sena.mini_proyecto.dto.UserDto;
+import com.sena.mini_proyecto.entity.User;
 
 public interface IUserService {
 

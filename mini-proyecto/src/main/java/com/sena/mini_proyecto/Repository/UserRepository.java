@@ -1,10 +1,12 @@
 //Acceso a la base de datos
-package com.sena.mini_proyecto.Repository;
+package com.sena.mini_proyecto.repository;
 
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import com.sena.mini_proyecto.Entity.User;
+
+import com.sena.mini_proyecto.entity.User;
+
 import java.util.UUID;
 
 public interface UserRepository extends JpaRepository<User, UUID> {
@@ -13,7 +15,7 @@ public interface UserRepository extends JpaRepository<User, UUID> {
 			+ "SELECT "
 			+ "u "
 			+ "FROM "
-			+ "users u "
+			+ "User u "
 			+ "WHERE "
 			+ "u.name like %?1%"
 			)

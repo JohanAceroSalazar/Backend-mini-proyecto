@@ -1,4 +1,4 @@
-package com.sena.mini_proyecto.Entity;
+package com.sena.mini_proyecto.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

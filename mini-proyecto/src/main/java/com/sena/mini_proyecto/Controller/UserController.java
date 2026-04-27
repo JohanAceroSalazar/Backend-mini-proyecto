@@ -1,4 +1,4 @@
-package com.sena.mini_proyecto.Controller;
+package com.sena.mini_proyecto.controller;
 
 import java.util.List;
 import java.util.UUID;
@@ -13,9 +13,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.sena.mini_proyecto.Entity.User;
-import com.sena.mini_proyecto.Dto.UserDto;
-import com.sena.mini_proyecto.Service.IUserService;
+
+import com.sena.mini_proyecto.dto.UserDto;
+import com.sena.mini_proyecto.entity.User;
+import com.sena.mini_proyecto.service.IUserService;
 
 @RestController
 @RequestMapping("/users")

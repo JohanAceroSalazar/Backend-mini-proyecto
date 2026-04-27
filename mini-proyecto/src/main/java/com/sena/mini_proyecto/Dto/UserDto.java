@@ -1,5 +1,5 @@
 //Data Transfer Object: Recibe datos y los envia entre procesos
-package com.sena.mini_proyecto.Dto;
+package com.sena.mini_proyecto.dto;
 
 import lombok.Data;
 

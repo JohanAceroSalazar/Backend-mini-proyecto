@@ -1,9 +1,11 @@
-package com.sena.mini_proyecto.Repository;
+package com.sena.mini_proyecto.repository;
 
 import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import com.sena.mini_proyecto.Entity.Product;
+
+import com.sena.mini_proyecto.entity.Product;
+
 import java.util.UUID;
 
 public interface ProductRepository extends JpaRepository<Product, UUID> {
@@ -12,9 +14,9 @@ public interface ProductRepository extends JpaRepository<Product, UUID> {
 			+ "SELECT "
 			+ "p "
 			+ "FROM "
-			+ "products p "
+			+ "Product p "
 			+ "WHERE "
-			+ "p.total like %?1%"
+			+ "p.name like %?1%"
 			)
 	public List<Product>filterByNameProduct(String name);
 }

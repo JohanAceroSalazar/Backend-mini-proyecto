@@ -1,4 +1,4 @@
-package com.sena.mini_proyecto.Controller;
+package com.sena.mini_proyecto.controller;
 
 import java.util.List;
 import java.util.UUID;
@@ -13,9 +13,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import com.sena.mini_proyecto.Entity.Order;
-import com.sena.mini_proyecto.Dto.OrderDto;
-import com.sena.mini_proyecto.Service.IOrderService;
+
+import com.sena.mini_proyecto.dto.OrderDto;
+import com.sena.mini_proyecto.entity.Order;
+import com.sena.mini_proyecto.service.IOrderService;
 
 @RestController
 @RequestMapping("/orders")
